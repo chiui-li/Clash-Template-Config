@@ -8,10 +8,10 @@ external-controller: :9090
 proxies:
   - {
       name: chiui,
-      server: 107.175.115.79,
+      server: {{vps-server}},
       port: 10811,
       type: vmess,
-      uuid: 195b1bf9-51d2-49bb-d5e1-7440af7eda05,
+      uuid: {uuid},
       alterId: 0,
       cipher: auto,
       tls: false,
