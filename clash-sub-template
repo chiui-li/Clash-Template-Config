@@ -4,23 +4,7 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-
-proxy-providers:
-  cf-pages-proxy:
-    type: http
-    http: {{http}}
-    interval: 12000
-    proxy: DIRECT
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 3000
-      timeout: 2000
-      lazy: true
-      expected-status: 204
-    override:
-      skip-cert-verify: true
-
+    
 proxies:
   - {
       name: chiui,
@@ -47,3 +31,4 @@ proxies:
       remote-dns-resolve: true,
       dns: [114.114.114.114, 1.1.1.1, 8.8.8.8],
     }
+{{proxy-list}}
