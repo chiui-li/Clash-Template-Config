@@ -8,7 +8,7 @@ external-controller: :9090
 proxy-providers:
   cf-pages-proxy:
     type: http
-    http: ${'http'}
+    http: {{http}}
     interval: 12000
     proxy: DIRECT
     health-check:
