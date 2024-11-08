@@ -6,7 +6,7 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 51.17.192.69,443,false,MRS,Europe,Marseille,227 ms,2596 kB/s
 3.6.136.68,80,false,BOM,Asia Pacific,Mumbai,305 ms,2459 kB/s
 3.68.31.54,80,false,FRA,Europe,Frankfurt,172 ms,1144 kB/s
-3.66.115.225,80,false,FRA,Europe,Frankfurt,177 ms,834 kB/s
+47.74.155.26,80,false,SIN,Asia Pacific,Singapore,93 ms,9800 kB/s
 3.141.95.66,80,false,CMH,North America,Columbus,230 ms,608 kB/s
 18.178.250.71,80,false,NRT,Asia Pacific,Tokyo,82 ms,159 kB/s
 54.150.195.218,80,false,NRT,Asia Pacific,Tokyo,88 ms,151 kB/s
